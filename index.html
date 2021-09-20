@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/b7b48e8d96.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+
+    <title>5-walidacja-formularza-zapisu-do-newslettera</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="conatiner">
+            <form id=formula action="" method="">
+                <div class="group">
+                    <label for="name">Imię i nazwisko</label>
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="name" name="name">
+                </div>
+
+                <div class="group">
+                    <label for="email">Email</label>
+                    <i class="far fa-envelope"></i>
+                    <input type="email" id="mail" name="email">
+                </div>
+
+                <div class="group checkbox">
+                    <input type="checkbox" id="agreement1" class="custom" name="agreement1" value="agreement1">
+                    <label for="agreement1">Wyrażam zgodę pierwszą</label>
+                </div>
+
+                <div class="group checkbox">
+                    <input type="checkbox" id="agreement2" class="custom" name="agreement2" value="agreement2">
+                    <label for="agreement2">Wyrażam zgodę drugą</label>
+                </div>
+
+
+                <div class="group checkbox">
+                    <input type="checkbox" id="agreementAll" class="custom" name="agreementAll " value="agreementAll ">
+                    <label for="agreementAll ">Wyrażam wszystkie zgody</label>
+                </div>
+
+                <button type="submit" id="sign-up">Wyślij</button>
+
+                <ul id="errors"></ul>
+            </form>
+        </div>
+        <div class="bg-gradient "></div>
+        <i class="fab fa-connectdevelop "></i>
+    </div>
+
+
+    <script src="./js/main.js "></script>
+</body>
+
+</html>
